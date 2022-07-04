@@ -3,7 +3,6 @@ import Board from './Board'
 import Artical from './Artical'
 import Login from "./Login"
 import Layout from "./Layout"
-import NotFound from './NotFound'
 function App () {
   return (
     <BrowserRouter>
@@ -15,7 +14,6 @@ function App () {
           <Route path="artical" element={<Artical></Artical>}></Route>
         </Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </BrowserRouter>
   )
