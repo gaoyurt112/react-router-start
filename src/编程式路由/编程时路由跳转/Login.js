@@ -5,7 +5,7 @@ function Login () {
   const navigate = useNavigate()
   //跳转到关于页的函数
   const goAbout = () => {
-    //调用跳转函数
+    //调用跳转函数 传入路径
     navigate('/about', { replace: true })
   }
 
